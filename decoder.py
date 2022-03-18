@@ -105,10 +105,8 @@ class CBAMC3(nn.Module):
         return self.spatial_attention(
             self.channel_attention(self.cv3(torch.cat((self.m(self.cv1(x)), self.cv2(x)), dim=1))))
 
-# ————————————————
-# 版权声明：本文为CSDN博主「幼儿园总园长」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-# 原文链接：https://blog.csdn.net/Mr_Clutch/article/details/119912926
-#我们在这里直接将yolo v5中添加的注意力机制模块添加至此，直接引用CSDN上代码，链接已经附上
+
+#为了方便我们在这里直接将yolo v5中添加的注意力机制模块添加至此
 
 
 class Decoder(nn.Module):
