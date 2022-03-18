@@ -5,4 +5,3 @@ CBAM module has been written into the Decoder module.
 
 Code section reference from
 https://github.com/jfzhang95/pytorch-deeplab-xception
-https://blog.csdn.net/Mr_Clutch/article/details/119912926
