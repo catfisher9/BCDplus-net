@@ -6,4 +6,4 @@ CBAM module has been written into the Decoder module.
 
 
 
-The official implementation of DeepLabv3+ is as follows https://github.com/yassouali/pytorch-segmentation/blob/master/models/deeplabv3_plus.py
+The official implementation of DeepLabv3+ is as follows https://github.com/tensorflow/models/tree/master/research/deeplab
